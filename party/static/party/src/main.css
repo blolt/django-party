@@ -1,0 +1,28 @@
+/* static/party/src/main.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap'); /* NEW */
+
+/* Define CSS variables */
+:root {
+  --color-custom-powder-light: #eee2dc;
+  --color-custom-powder: #edc7b7;
+  --color-custom-blue: #123c69;
+  --color-custom-blue-light: #3a6aa4;
+  --color-custom-red: #ac3b61;
+}
+
+@import "tailwindcss/preflight";
+@import "tailwindcss";
+@import "tailwindcss/utilities";
+
+.btn-default {
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  border-radius: 0.75rem;
+  background-color: var(--color-custom-blue);
+  color: var(--color-custom-powder-light);
+}
+
+.btn-default:hover {
+  background-color: var(--color-custom-blue-light);
+}

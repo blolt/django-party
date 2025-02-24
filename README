@@ -1,0 +1,8 @@
+We will want to use this,
+```
+npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch
+```
+
+to compile the css. It would be great to integrate this into the build tool.
+
+
